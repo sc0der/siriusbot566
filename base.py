@@ -62,4 +62,4 @@ def all_lang(message):
 	else:
 		bot.reply_to(message, err_mess_eng)
 
-bot.polling()
+bot.polling(none_stop=True)
