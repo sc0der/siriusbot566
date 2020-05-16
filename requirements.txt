@@ -1,5 +1,4 @@
-discord.py
-telebot
-websockets
-chardet
-aiohttp
+pyTelegramBotAPI==3.6.7
+chardet==3.0.4
+aiogram==2.8
+aiohttp==3.6.2
