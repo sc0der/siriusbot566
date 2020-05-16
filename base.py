@@ -1,11 +1,9 @@
 import telebot
 from telebot import types
-import consts
-import logging
 from messages import *
 from keyboards import *
 
-bot = telebot.TeleBot(consts.api_token))
+bot = telebot.TeleBot("487331983:AAHYPqI4VhPjS5JUl3YMnjarZG6oskbwa6U")
 
 @bot.message_handler(commands=['start','help'])
 def send_welcome(message):
