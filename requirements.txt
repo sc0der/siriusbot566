@@ -3,4 +3,3 @@ telebot
 websockets
 chardet
 aiohttp
-logging
